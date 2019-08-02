@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/MyToolBarStyle</item>
+    </style>
+
+    <style name="NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <color name="c_ecf0f1">#ecf0f1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="c_black">#000000</color>
+    <color name="c_34495e">#34495e</color>
+    <color name="c_bdc3c7">#bdc3c7</color>
+
+    <style name="MyToolBarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+        <item name="titleTextAppearance">@style/MyTitleTextAppearance</item>
+
+    </style>
+    <style name="MyTitleTextAppearance"
+        parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/c_34495e</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
